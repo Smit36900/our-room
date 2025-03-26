@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #6e5a3f;
+    color: white;
+}
+.section {
+    text-align: center;
+    padding: 50px 20px;
+}
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-top: 20px;
+    font-family: "Manjari-Bold";
+}
+.our_room p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Montserrat";
+} 
+.room-gallery {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.room-item {
+    background: white;
+    max-width: 300px;
+    background-color: #6e5a3f;
+}
+.room-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.room-item button {
+    display: inline-block;
+    padding: 4px 12px 4px 12px;
+    font-size: 10px;
+    color: #fff;
+    font-family: "Manjari-Bold";
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-decoration: none;
+    border-radius: 0;
+}
+.room-item button:hover {
+    background: white;
+    color: #6e5a3f;
+}   
+
+.room-item .content{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+/* Facilites  */
+  .feature h2 {
+    text-align: center;
+    color: #ff4c00;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .facilities {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
+  .box {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box img {
+    width: 90px;
+    margin: 50px auto 20px;
+  }
+  .box .label {
+    background-color: #ff4c00;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+  .view-more {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 25px;
+    border: 1px solid #ff4c00;
+    color: #ff4c00;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    left: 603px;
+  }
+ 
